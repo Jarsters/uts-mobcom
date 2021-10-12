@@ -92,24 +92,6 @@ const DetailsCoffee = ({ route }) => {
                     <Icon type='material' name="favorite-border" size={21} color={"#fff"} />
 }
             </TouchableOpacity>
-
-            <TouchableOpacity
-                onPress={async () => {
-                    try {
-                        const value = await AsyncStorage.getItem('user');
-                        console.log('huahuahua 1231')
-                        if (value !== null) {
-                            // We have data!!
-                            console.log('huahuahua')
-                            console.log(JSON.parse(value));
-                        }
-                    } catch (error) {
-                        // Error retrieving data
-                    }
-                }}
-            >
-                <Text>PENCETTTTTT!!!!!!!!</Text>
-            </TouchableOpacity>
         </View>
     )
 }
