@@ -1,4 +1,4 @@
-package com.uts;
+package com.resa_fajar_sukma.coffeecatalog;
 import android.os.Bundle;
 
 import com.facebook.react.ReactActivity;
